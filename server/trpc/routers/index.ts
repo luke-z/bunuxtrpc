@@ -1,6 +1,5 @@
 import { z } from "zod";
 import { publicProcedure, router } from "../trpc";
-import { useNuxtApp } from "nuxt/app";
 import { useDrizzle } from "~/server/utils/drizzle";
 
 export const appRouter = router({
